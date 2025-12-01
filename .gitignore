@@ -1,32 +1,32 @@
 # 操作系统临时文件
-.DS_Store          # macOS
-Thumbs.db          # Windows
-*.tmp              # 临时文件
-*.swp              # vim 交换文件
-*.swo              # vim 备份文件
-*~                 # 各类编辑器备份文件
+./*/.DS_Store          # macOS
+./*/Thumbs.db          # Windows
+./*/*.tmp              # 临时文件
+./*/*.swp              # vim 交换文件
+./*/*.swo              # vim 备份文件
+./*/*~                 # 各类编辑器备份文件
 
 # 编辑器/IDE配置
-.idea/             # IntelliJ IDEA
-.vscode/           # VS Code（含settings.json、缓存等）
-.project           # Eclipse
-.classpath         # Eclipse
-*.suo              # Visual Studio
-*.user             # Visual Studio
-.nova/             # Nova编辑器
+./*/.idea/             # IntelliJ IDEA
+./*/.vscode/           # VS Code（含settings.json、缓存等）
+./*/.project           # Eclipse
+./*/.classpath         # Eclipse
+./*/*.suo              # Visual Studio
+./*/*.user             # Visual Studio
+./*/.nova/             # Nova编辑器
 
 # 日志文件
-logs/
-*.log
-log/
+./*/logs/
+./*/*.log
+./*/log/
 
 # 缓存/临时目录
-.cache/
-tmp/
-temp/
+./*/.cache/
+./*/tmp/
+./*/temp/
 
 # 压缩包/安装包
-*.zip
-*.tar.gz
-*.rar
-node_modules/.cache/  # 前端缓存
+./*/*.zip
+./*/*.tar.gz
+./*/*.rar
+./*/node_modules/.cache/  # 前端缓存
